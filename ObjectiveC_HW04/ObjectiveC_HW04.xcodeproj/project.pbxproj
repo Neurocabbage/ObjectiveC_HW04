@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8422EE272AB649E60010B697 /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422EE262AB649E60010B697 /* Robot.m */; };
 		84C3C79F2AB5DAC1003828B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C3C79E2AB5DAC1003828B7 /* main.m */; };
+		84FB80D32AB6EDA300289689 /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FB80D22AB6EDA300289689 /* Robot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8422EE252AB649E60010B697 /* Robot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Robot.h; path = ../Robot.h; sourceTree = "<group>"; };
-		8422EE262AB649E60010B697 /* Robot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Robot.m; path = ../Robot.m; sourceTree = "<group>"; };
 		84C3C79B2AB5DAC1003828B7 /* ObjectiveC_HW04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveC_HW04; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C3C79E2AB5DAC1003828B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84FB80D12AB6EDA300289689 /* Robot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Robot.h; sourceTree = "<group>"; };
+		84FB80D22AB6EDA300289689 /* Robot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Robot.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				84C3C79E2AB5DAC1003828B7 /* main.m */,
-				8422EE252AB649E60010B697 /* Robot.h */,
-				8422EE262AB649E60010B697 /* Robot.m */,
+				84FB80D12AB6EDA300289689 /* Robot.h */,
+				84FB80D22AB6EDA300289689 /* Robot.m */,
 			);
 			path = ObjectiveC_HW04;
 			sourceTree = "<group>";
@@ -124,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8422EE272AB649E60010B697 /* Robot.m in Sources */,
+				84FB80D32AB6EDA300289689 /* Robot.m in Sources */,
 				84C3C79F2AB5DAC1003828B7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

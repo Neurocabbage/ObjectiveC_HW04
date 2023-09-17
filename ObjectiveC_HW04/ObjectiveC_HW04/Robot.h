@@ -2,14 +2,12 @@
 //  Robot.h
 //  ObjectiveC_HW04
 //
-//  Created by Admin on 16.09.2023.
+//  Created by Admin on 17.09.2023.
 //
 
 #import <Foundation/Foundation.h>
 
-
-
-typedef NSString * _Nullable (^RobotMovementBlock)(void);
+typedef NSString* _Nullable (^RobotMovementBlock)(void);
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -18,12 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger x;
 @property (nonatomic, assign) NSInteger y;
 
-- (void)run:(RobotMovementBlock)movementBlock;
+-(void)run:(RobotMovementBlock)movementBlock;
 
 @end
 
 NS_ASSUME_NONNULL_END
-
-
-
-

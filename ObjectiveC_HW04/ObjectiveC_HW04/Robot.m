@@ -2,14 +2,14 @@
 //  Robot.m
 //  ObjectiveC_HW04
 //
-//  Created by Admin on 16.09.2023.
+//  Created by Admin on 17.09.2023.
 //
 
 #import "Robot.h"
 
 @implementation Robot
 
-- (instancetype)init {
+-(instancetype)init {
     self = [super init];
     if (self) {
         _x = 0; // начальная координата x
@@ -18,7 +18,7 @@
     return self;
 }
 
-- (void)run:(RobotMovementBlock)movementBlock {
+-(void)run:(RobotMovementBlock)movementBlock {
     NSString *movement = movementBlock();
     
     if ([movement isEqualToString:@"up"]) {
@@ -33,5 +33,3 @@
 }
 
 @end
-
-
